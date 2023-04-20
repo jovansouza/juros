@@ -1,0 +1,58 @@
+ @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Ubuntu:wght@300&display=swap');
+
+ *{
+    font-family: ubuntu, sans-serif;
+    
+    
+    box-sizing: border-box;
+
+ }
+
+ #container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, rgb(7, 235, 102), rgb(13, 116, 201));
+    color: aliceblue;
+    
+ }
+
+ #box{
+    background-color: rgb(17, 22, 53);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(20, 20, 20, 0.548);
+    flex-direction: column;
+    gap: 12px;
+    display: flex;
+    width: 300px;
+ }
+
+ #botao{
+    border-radius: 5px;
+    border: none;
+    padding: 0.4rem;
+    background: linear-gradient(to right, rgb(182, 16, 80), rgb(0, 34, 128));
+    color: aliceblue;
+ }
+
+ #botao:hover{
+    cursor: pointer;
+    font-size: 1rem;
+    background: linear-gradient(to left, rgb(255, 0, 242), rgb(13, 92, 211));
+ }
+
+ #value{
+    border: none;
+    border-radius: 3px;
+    background-color: azure;
+    outline: none;
+    
+ }
+
+ #total{
+    font-size: 2rem;
+ }
+ 
