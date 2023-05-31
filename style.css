@@ -35,7 +35,7 @@
     border-radius: 5px;
     border: none;
     padding: 0.4rem;
-    background: linear-gradient(to right, rgb(182, 16, 80), rgb(0, 34, 128));
+    background: linear-gradient(to right, rgb(165, 11, 70), rgb(0, 34, 128));
     color: aliceblue;
  }
 
@@ -50,11 +50,29 @@
     border-radius: 3px;
     background-color: azure;
     outline: none;
-    
+    padding: 3px;
     
  }
 
  #total{
     font-size: 2rem;
+ }
+
+ #free{
+   border: none;
+   border-radius: 3px;
+   background-color: azure;
+   outline: none;
+   padding: 3px;
+   
+ }
+
+ #time{
+   border: none;
+   border-radius: 3px;
+   background-color: azure;
+   outline: none;
+   padding: 3px;
+   
  }
  
